@@ -1,6 +1,20 @@
+# Identifying Information
+
+1. Name: Ethan Clunie
+2. Student ID: 2372711
+3. Email: eclunie@chapman.edu
+4. Class: CPSC-298-01
+5. Assignment: cars
+
 # Application Purpose
 
 This repo will contain a bash script named “cars.sh” that will help a user maintain an inventory of old cars.  
+
+## Files
+
+1. cars.sh
+2. cars-input
+3. My_old_cars
    
 ## The user will be presented with a menu of three options:
 
@@ -21,4 +35,13 @@ The program will display the lines of the My_old_cars file, sorted by year
 
 ### If the user chooses to Quit  
 The program will display a “Goodbye” message and exit.
+
+### Known Errors
+None
+
+### References
+Used geeksforgeeks.org for linux sort command examples
+
+### Instructions
+To run the script with input from the included cars-input file: ./cars.sh < cars-input
 
